@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:rootpad-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -975,13 +976,8 @@ Text GLabel 8400 1750 1    50   Input ~ 0
 COL0
 Text GLabel 8900 1750 1    50   Input ~ 0
 COL1
-Text GLabel 9400 2750 1    50   Input ~ 0
-COL2
 Text GLabel 9900 2750 1    50   Input ~ 0
 COL3
-Wire Wire Line
-	9400 2750 9400 3100
-Connection ~ 9400 3100
 Wire Wire Line
 	9900 2750 9900 3100
 Connection ~ 9900 3100
@@ -1006,4 +1002,27 @@ Connection ~ 8000 5000
 Wire Wire Line
 	7650 5750 8000 5750
 Connection ~ 8000 5750
+Text GLabel 5100 3600 2    50   Input ~ 0
+ROW0
+Text GLabel 5100 4200 2    50   Input ~ 0
+ROW1
+Text GLabel 5100 2700 2    50   Input ~ 0
+ROW2
+Text GLabel 5100 2800 2    50   Input ~ 0
+ROW3
+Text GLabel 5100 2900 2    50   Input ~ 0
+ROW4
+Connection ~ 9400 3100
+Wire Wire Line
+	9400 2750 9400 3100
+Text GLabel 9400 2750 1    50   Input ~ 0
+COL2
+Text GLabel 5100 3200 2    50   Input ~ 0
+COL3
+Text GLabel 5100 4000 2    50   Input ~ 0
+COL2
+Text GLabel 5100 3800 2    50   Input ~ 0
+COL1
+Text GLabel 5100 3700 2    50   Input ~ 0
+COL0
 $EndSCHEMATC
