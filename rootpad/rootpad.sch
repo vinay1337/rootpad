@@ -1025,4 +1025,95 @@ Text GLabel 5100 3800 2    50   Input ~ 0
 COL1
 Text GLabel 5100 3700 2    50   Input ~ 0
 COL0
+Text GLabel 5100 2300 2    50   Input ~ 0
+LED_R
+Text GLabel 5100 2400 2    50   Input ~ 0
+LED_G
+Text GLabel 5100 2500 2    50   Input ~ 0
+LED_B
+Wire Wire Line
+	1550 7000 1800 7000
+Wire Wire Line
+	1550 6400 1800 6400
+Wire Wire Line
+	1550 6700 1800 6700
+Text GLabel 1550 7000 0    50   Input ~ 0
+LED_B
+Text GLabel 1550 6700 0    50   Input ~ 0
+LED_G
+Text GLabel 1550 6400 0    50   Input ~ 0
+LED_R
+Wire Wire Line
+	2300 6700 2000 6700
+Wire Wire Line
+	2250 6400 2000 6400
+Wire Wire Line
+	2250 6500 2250 6400
+Wire Wire Line
+	2300 6500 2250 6500
+Wire Wire Line
+	2250 7000 2000 7000
+Wire Wire Line
+	2250 6900 2250 7000
+Wire Wire Line
+	2300 6900 2250 6900
+$Comp
+L Device:R_Small R7
+U 1 1 5D546E48
+P 1900 7000
+F 0 "R7" V 1704 7000 50  0000 C CNN
+F 1 "80" V 1795 7000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 7000 50  0001 C CNN
+F 3 "~" H 1900 7000 50  0001 C CNN
+	1    1900 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5D546BB6
+P 1900 6700
+F 0 "R6" V 1704 6700 50  0000 C CNN
+F 1 "80" V 1795 6700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 6700 50  0001 C CNN
+F 3 "~" H 1900 6700 50  0001 C CNN
+	1    1900 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5D545EC9
+P 1900 6400
+F 0 "R5" V 1704 6400 50  0000 C CNN
+F 1 "150" V 1795 6400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 6400 50  0001 C CNN
+F 3 "~" H 1900 6400 50  0001 C CNN
+	1    1900 6400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 6700 2700 6700
+Wire Wire Line
+	2900 6650 2900 6700
+$Comp
+L power:+5V #PWR0114
+U 1 1 5D5420C8
+P 2900 6650
+F 0 "#PWR0114" H 2900 6500 50  0001 C CNN
+F 1 "+5V" H 2915 6823 50  0000 C CNN
+F 2 "" H 2900 6650 50  0001 C CNN
+F 3 "" H 2900 6650 50  0001 C CNN
+	1    2900 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RAGB D19
+U 1 1 5D532DFA
+P 2500 6700
+F 0 "D19" H 2500 7197 50  0000 C CNN
+F 1 "LED_RAGB" H 2500 7106 50  0000 C CNN
+F 2 "LED_THT:LED_D5.0mm-4_RGB" H 2500 6650 50  0001 C CNN
+F 3 "~" H 2500 6650 50  0001 C CNN
+	1    2500 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
