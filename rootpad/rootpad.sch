@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:rootpad-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1001,34 +1002,34 @@ Connection ~ 8000 5000
 Wire Wire Line
 	7650 5750 8000 5750
 Connection ~ 8000 5750
-Text GLabel 5100 3600 2    50   Input ~ 0
+Text GLabel 5450 3600 2    50   Input ~ 0
 ROW0
-Text GLabel 5100 4200 2    50   Input ~ 0
+Text GLabel 5450 4200 2    50   Input ~ 0
 ROW1
-Text GLabel 5100 2700 2    50   Input ~ 0
+Text GLabel 5450 2700 2    50   Input ~ 0
 ROW2
-Text GLabel 5100 2800 2    50   Input ~ 0
+Text GLabel 5450 2800 2    50   Input ~ 0
 ROW3
-Text GLabel 5100 2900 2    50   Input ~ 0
+Text GLabel 5450 2900 2    50   Input ~ 0
 ROW4
 Connection ~ 9400 3100
 Wire Wire Line
 	9400 2750 9400 3100
 Text GLabel 9400 2750 1    50   Input ~ 0
 COL2
-Text GLabel 5100 3200 2    50   Input ~ 0
+Text GLabel 5450 3200 2    50   Input ~ 0
 COL3
-Text GLabel 5100 4000 2    50   Input ~ 0
+Text GLabel 5450 4000 2    50   Input ~ 0
 COL2
-Text GLabel 5100 3800 2    50   Input ~ 0
+Text GLabel 5450 3800 2    50   Input ~ 0
 COL1
-Text GLabel 5100 3700 2    50   Input ~ 0
+Text GLabel 5450 3700 2    50   Input ~ 0
 COL0
-Text GLabel 5100 2300 2    50   Input ~ 0
+Text GLabel 5450 2300 2    50   Input ~ 0
 LED_R
-Text GLabel 5100 2400 2    50   Input ~ 0
+Text GLabel 5450 2400 2    50   Input ~ 0
 LED_G
-Text GLabel 5100 2500 2    50   Input ~ 0
+Text GLabel 5450 2500 2    50   Input ~ 0
 LED_B
 Wire Wire Line
 	1550 7000 1800 7000
