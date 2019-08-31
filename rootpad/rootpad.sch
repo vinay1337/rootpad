@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:rootpad-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1116,4 +1116,19 @@ F 3 "~" H 2500 6650 50  0001 C CNN
 	1    2500 6700
 	1    0    0    -1  
 $EndComp
+NoConn ~ 5100 2600
+NoConn ~ 5100 2700
+NoConn ~ 5100 2800
+NoConn ~ 5100 2900
+NoConn ~ 5100 3000
+NoConn ~ 5100 3200
+NoConn ~ 5100 3300
+NoConn ~ 5100 3500
+NoConn ~ 5100 3600
+NoConn ~ 5100 3700
+NoConn ~ 5100 3800
+NoConn ~ 5100 4000
+NoConn ~ 5100 4500
+NoConn ~ 3900 2900
+NoConn ~ 5850 1500
 $EndSCHEMATC
