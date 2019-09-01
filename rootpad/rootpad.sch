@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:rootpad-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1001,28 +1002,28 @@ Connection ~ 8000 5000
 Wire Wire Line
 	7650 5750 8000 5750
 Connection ~ 8000 5750
-Text GLabel 5100 3600 2    50   Input ~ 0
+Text GLabel 5100 3900 2    50   Input ~ 0
 ROW0
-Text GLabel 5100 4200 2    50   Input ~ 0
+Text GLabel 5100 5200 2    50   Input ~ 0
 ROW1
-Text GLabel 5100 2700 2    50   Input ~ 0
+Text GLabel 5100 5100 2    50   Input ~ 0
 ROW2
-Text GLabel 5100 2800 2    50   Input ~ 0
+Text GLabel 5100 5000 2    50   Input ~ 0
 ROW3
-Text GLabel 5100 2900 2    50   Input ~ 0
+Text GLabel 5100 4900 2    50   Input ~ 0
 ROW4
 Connection ~ 9400 3100
 Wire Wire Line
 	9400 2750 9400 3100
 Text GLabel 9400 2750 1    50   Input ~ 0
 COL2
-Text GLabel 5100 3200 2    50   Input ~ 0
+Text GLabel 5100 4700 2    50   Input ~ 0
 COL3
-Text GLabel 5100 4000 2    50   Input ~ 0
+Text GLabel 5100 4800 2    50   Input ~ 0
 COL2
-Text GLabel 5100 3800 2    50   Input ~ 0
+Text GLabel 5100 4100 2    50   Input ~ 0
 COL1
-Text GLabel 5100 3700 2    50   Input ~ 0
+Text GLabel 5100 4200 2    50   Input ~ 0
 COL0
 Text GLabel 5100 2300 2    50   Input ~ 0
 LED_R
@@ -1056,28 +1057,6 @@ Wire Wire Line
 	2250 6900 2250 7000
 Wire Wire Line
 	2300 6900 2250 6900
-$Comp
-L Device:R_Small R7
-U 1 1 5D546E48
-P 1900 7000
-F 0 "R7" V 1704 7000 50  0000 C CNN
-F 1 "80" V 1795 7000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 7000 50  0001 C CNN
-F 3 "~" H 1900 7000 50  0001 C CNN
-	1    1900 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 5D546BB6
-P 1900 6700
-F 0 "R6" V 1704 6700 50  0000 C CNN
-F 1 "80" V 1795 6700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 6700 50  0001 C CNN
-F 3 "~" H 1900 6700 50  0001 C CNN
-	1    1900 6700
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R_Small R5
 U 1 1 5D545EC9
@@ -1114,5 +1093,42 @@ F 2 "random-keyboard-parts:LED_D5.0mm-4_RGB_Spaced" H 2500 6650 50  0001 C CNN
 F 3 "~" H 2500 6650 50  0001 C CNN
 	1    2500 6700
 	1    0    0    -1  
+$EndComp
+NoConn ~ 5100 2600
+NoConn ~ 5100 2700
+NoConn ~ 5100 2800
+NoConn ~ 5100 2900
+NoConn ~ 5100 3000
+NoConn ~ 5100 3200
+NoConn ~ 5100 3300
+NoConn ~ 5100 3500
+NoConn ~ 5100 3600
+NoConn ~ 5100 3700
+NoConn ~ 5100 3800
+NoConn ~ 5100 4000
+NoConn ~ 5100 4500
+NoConn ~ 3900 2900
+NoConn ~ 5850 1500
+$Comp
+L Device:R_Small R7
+U 1 1 5D546E48
+P 1900 7000
+F 0 "R7" V 1704 7000 50  0000 C CNN
+F 1 "80" V 1795 7000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 7000 50  0001 C CNN
+F 3 "~" H 1900 7000 50  0001 C CNN
+	1    1900 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5D546BB6
+P 1900 6700
+F 0 "R6" V 1704 6700 50  0000 C CNN
+F 1 "80" V 1795 6700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 6700 50  0001 C CNN
+F 3 "~" H 1900 6700 50  0001 C CNN
+	1    1900 6700
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
