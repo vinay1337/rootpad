@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:rootpad-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1058,28 +1058,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 6900 2250 6900
 $Comp
-L Device:R_Small R7
-U 1 1 5D546E48
-P 1900 7000
-F 0 "R7" V 1704 7000 50  0000 C CNN
-F 1 "80" V 1795 7000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 7000 50  0001 C CNN
-F 3 "~" H 1900 7000 50  0001 C CNN
-	1    1900 7000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R6
-U 1 1 5D546BB6
-P 1900 6700
-F 0 "R6" V 1704 6700 50  0000 C CNN
-F 1 "80" V 1795 6700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 6700 50  0001 C CNN
-F 3 "~" H 1900 6700 50  0001 C CNN
-	1    1900 6700
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R_Small R5
 U 1 1 5D545EC9
 P 1900 6400
@@ -1131,4 +1109,26 @@ NoConn ~ 5100 4000
 NoConn ~ 5100 4500
 NoConn ~ 3900 2900
 NoConn ~ 5850 1500
+$Comp
+L Device:R_Small R7
+U 1 1 5D546E48
+P 1900 7000
+F 0 "R7" V 1704 7000 50  0000 C CNN
+F 1 "80" V 1795 7000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 7000 50  0001 C CNN
+F 3 "~" H 1900 7000 50  0001 C CNN
+	1    1900 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5D546BB6
+P 1900 6700
+F 0 "R6" V 1704 6700 50  0000 C CNN
+F 1 "80" V 1795 6700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1900 6700 50  0001 C CNN
+F 3 "~" H 1900 6700 50  0001 C CNN
+	1    1900 6700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
